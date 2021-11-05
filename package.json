@@ -1,0 +1,25 @@
+{
+  "name": "employee-waddle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-harris-iii/employee-waddle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-harris-iii/employee-waddle/issues"
+  },
+  "homepage": "https://github.com/john-harris-iii/employee-waddle#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3-rc.0"
+  }
+}
