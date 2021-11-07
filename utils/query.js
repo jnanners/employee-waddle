@@ -262,7 +262,7 @@ class Menu {
                         {
                             type: "list",
                             name: "employee",
-                            message: "What role would you like to give them?",
+                            message: "What employee's role would you like to update?",
                             choices: employeeList
                         },
                         {

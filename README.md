@@ -11,6 +11,7 @@
   To install clone this repo onto your local computer, navigate to the repo in the command line, and run node index to start.
   ## Usage
   Follow the prompts to view and add employees, roles, and departments as well as update employee roles. To close the application simply press Ctrl + c.
+  [Video Tutorial](https://watch.screencastify.com/v/pACuW21zp46Etgbzh4UO)
   ## License
   <a href='https://opensource.org/licenses/unlicense' target='_blank'>The Unlicensed</a>
   ## Questions
