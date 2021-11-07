@@ -1,10 +1,12 @@
 const db = require("./db/connection");
-const inquirer = require("inquirer");
-const cTable = require("console.table");
-
-
+const Menu = require("./utils/query");
 
 db.connect(err => {
-    if(err) throw err;
-    console.log("Connected to database")
+    if(err){
+        console.log(err)
+    }
+    else{
+        console.log("Connected to database")
+        new Menu().start();
+    }
 })
